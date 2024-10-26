@@ -1,0 +1,302 @@
+{
+  "users": [
+    {
+      "email": "prova@prova.com",
+      "password": "$2a$10$dX7ib2zqfsV0i0obHJZhEeF1WnZhemaXrilXecnOpXsdfXfpn0BNW",
+      "name": "Prova",
+      "id": 9
+    },
+    {
+      "email": "admin@admin",
+      "password": "$2a$10$FAKfO633h0p4pfEHfDM3ZOWYu6uuwasM4CEJUpyVu2PfLQvaTu9k.",
+      "name": "admin",
+      "id": 10
+    },
+    {
+      "email": "lello@lello.lello",
+      "password": "$2a$10$B/wm1dH9opLfN.UB/bUzz..CyQDJLY2s3Ou22T1q/DegWAEq6ncyq",
+      "name": "lello",
+      "id": 11
+    },
+    {
+      "email": "admin@admin2",
+      "password": "$2a$10$p4WF3.OTui4dTQze1rT.N.VmMcrdKzq313I2JWPRg7tTUsiDrB2bi",
+      "name": "admin",
+      "id": 12
+    },
+    {
+      "email": "ginopostino69@gmail.com",
+      "password": "$2a$10$l3zvKNo9rLakhU4xGIzg0.rKiCTLZDv5XHEamjrAGhoBxRwUpBKI.",
+      "name": "Gino postino",
+      "id": 13
+    }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "title": "Acheron",
+      "release_date": "27-03-2024",
+      "image_link": "https://genshinlab.com/wp-content/uploads/Along-the-Passing-ShoreL.webp"
+    },
+    {
+      "id": 2,
+      "title": "Argenti",
+      "release_date": "06-12-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/11/An-Instant-Before-A-Gaze_S.webp"
+    },
+    {
+      "id": 3,
+      "title": "Aventurine",
+      "release_date": "17-04-2024",
+      "image_link": "https://genshinlab.com/wp-content/uploads/Inherently-Unjust-DestinyL.webp"
+    },
+    {
+      "id": 4,
+      "title": "Bailu",
+      "release_date": "26-04-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/02/Time-Waits-for-No-One_honkailab_genshinlab2.webp"
+    },
+    {
+      "id": 5,
+      "title": "Black Swan",
+      "release_date": "06-02-2024",
+      "image_link": "https://starrail.honeyhunterworld.com/img/item/reforged-remembrance-item_icon_thumbnail_large.webp"
+    },
+    {
+      "id": 6,
+      "title": "Blade",
+      "release_date": "19-07-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/03/The-Unreachable-Side.webp"
+    },
+    {
+      "id": 7,
+      "title": "Boothill",
+      "release_date": "29-05-2024",
+      "image_link": "https://starrail.honeyhunterworld.com/img/item/sailing-towards-a-second-life-item_icon_thumbnail_large.webp"
+    },
+    {
+      "id": 8,
+      "title": "Bronya",
+      "release_date": "26-04-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/02/The-Battle-Isnt-Over_honkailab_genshinlab2.webp"
+    },
+    {
+      "id": 9,
+      "title": "Clara",
+      "release_date": "26-04-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/02/Something-Irreplaceable_honkailab_genshinlab2.webp"
+    },
+    {
+      "id": 10,
+      "title": "Dan Heng IL",
+      "release_date": "30-08-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/08/Brighter-Than-the-Sun.webp"
+    },
+    {
+      "id": 11,
+      "title": "Dr.Ratio",
+      "release_date": "17-01-2024",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/11/Baptism-of-Pure-Thought_b.webp"
+    },
+    {
+      "id": 12,
+      "title": "Feixiao",
+      "release_date": "10-09-2024",
+      "image_link": "https://genshinlab.com/wp-content/uploads/I-Venture-Forth-to-HuntL.webp"
+    },
+    {
+      "id": 13,
+      "title": "Firefly",
+      "release_date": "19-06-2024",
+      "image_link": "https://starrail.honeyhunterworld.com/img/item/whereabouts-should-dreams-rest-item_icon_thumbnail_large.webp"
+    },
+    {
+      "id": 14,
+      "title": "Fu Xuan",
+      "release_date": "20-09-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/08/she-already-shut-her-eyes.webp"
+    },
+    {
+      "id": 15,
+      "title": "Gepard",
+      "release_date": "26-04-2023",
+      "image_link": "https://starrail.honeyhunterworld.com/img/item/moment-of-victory-item_icon_thumbnail_large.webp"
+    },
+    {
+      "id": 16,
+      "title": "Himeko",
+      "release_date": "26-04-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/02/Night-on-the-Milky-Way.webp"
+    },
+    {
+      "id": 17,
+      "title": "Huohuo",
+      "release_date": "15-11-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/10/Night-of-Fright_L.webp"
+    },
+    {
+      "id": 18,
+      "title": "Jade",
+      "release_date": "10-06-2024",
+      "image_link": "https://starrail.honeyhunterworld.com/img/item/yet-hope-is-priceless-item_icon_thumbnail_large.webp"
+    },
+    {
+      "id": 19,
+      "title": "Jiaoqiu",
+      "release_date": "21-08-2024",
+      "image_link": "https://starrail.honeyhunterworld.com/img/item/those-many-springs-item_icon_thumbnail_large.webp"
+    },
+    {
+      "id": 20,
+      "title": "Jing Yuan",
+      "release_date": "17-05-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/02/Before-Dawn_honkailab_genshinlab2.webp"
+    },
+    {
+      "id": 21,
+      "title": "Jingliu",
+      "release_date": "11-10-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/09/I-Shall-Be-My-Own-Sword_l.webp"
+    },
+    {
+      "id": 22,
+      "title": "Kafka",
+      "release_date": "09-08-2023",
+      "image_link": "https://starrail.honeyhunterworld.com/img/item/patience-is-all-you-need-item_icon_thumbnail_large.webp"
+    },
+    {
+      "id": 23,
+      "title": "Lingsha",
+      "release_date": "02-10-2024",
+      "image_link": "https://genshinlab.com/wp-content/uploads/Scent-Alone-Stays-TrueL.webp"
+    },
+    {
+      "id": 24,
+      "title": "Luocha",
+      "release_date": "28-06-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/05/Echoes-of-the-Coffin_genshinlab.webp"
+    },
+    {
+      "id": 25,
+      "title": "Rappa",
+      "release_date": "23-10-2024",
+      "image_link": "https://genshinlab.com/wp-content/uploads/Ninjutsu-Inscription-Dazzling-EvilbreakerL.webp"
+    },
+    {
+      "id": 26,
+      "title": "Robin",
+      "release_date": "08-05-2024",
+      "image_link": "https://genshinlab.com/wp-content/uploads/Flowing-NightglowL.webp"
+    },
+    {
+      "id": 27,
+      "title": "Ruan Mei",
+      "release_date": "27-12-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/11/Past-Self-in-Mirror_b.webp"
+    },
+    {
+      "id": 28,
+      "title": "Seele",
+      "release_date": "26-04-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/02/In-the-Night_honkailab_genshinlab.webp"
+    },
+    {
+      "id": 29,
+      "title": "Silver Wolf",
+      "release_date": "07-07-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/05/Incessant-Rain-genshinlab.webp"
+    },
+    {
+      "id": 30,
+      "title": "Sparkle",
+      "release_date": "29-02-2024",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2024/01/Earthly-Escapade-b.webp"
+    },
+    {
+      "id": 31,
+      "title": "Topaz",
+      "release_date": "27-10-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/09/Worrisome-Blissful_s.webp"
+    },
+    {
+      "id": 32,
+      "title": "Welt",
+      "release_date": "26-04-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/02/In-the-Name-of-the-World_honkailab_genshinlab2.webp"
+    },
+    {
+      "id": 33,
+      "title": "Yanqing",
+      "release_date": "26-04-2023",
+      "image_link": "https://genshinlab.com/wp-content/uploads/2023/02/Sleep-Like-the-Dead_honkailab_genshinlab2.webp"
+    },
+    {
+      "id": 34,
+      "title": "Yunli",
+      "release_date": "31-07-2024",
+      "image_link": "https://starrail.honeyhunterworld.com/img/item/dance-at-sunset-item_icon_thumbnail_large.webp"
+    }
+  ],
+  "favorites": [
+    {
+      "userId": 10,
+      "characterId": 2,
+      "id": 1
+    },
+    {
+      "userId": 10,
+      "characterId": 3,
+      "id": 2
+    },
+    {
+      "userId": 10,
+      "characterId": 1,
+      "id": 3
+    },
+    {
+      "userId": 13,
+      "characterId": 31,
+      "id": 4
+    },
+    {
+      "userId": 13,
+      "characterId": 34,
+      "id": 5
+    },
+    {
+      "userId": 13,
+      "characterId": 30,
+      "id": 6
+    },
+    {
+      "userId": 13,
+      "characterId": 26,
+      "id": 7
+    },
+    {
+      "userId": 13,
+      "characterId": 27,
+      "id": 8
+    },
+    {
+      "userId": 13,
+      "characterId": 24,
+      "id": 9
+    },
+    {
+      "userId": 13,
+      "characterId": 10,
+      "id": 10
+    },
+    {
+      "userId": 13,
+      "characterId": 11,
+      "id": 11
+    },
+    {
+      "userId": 13,
+      "characterId": 1,
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/characters">
+      <img
+        src="https://stickershop.line-scdn.net/stickershop/v1/product/26908472/LINEStorePC/main.png?v=1"
+        alt="Wishlist"
+      />
+      Wishlist
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav ms-auto my-2 my-lg-0">
+        <li *ngIf="logged" class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="movies">
+            Tutti i personaggi
+          </a>
+        </li>
+        <li class="nav-item" *ngIf="logged">
+          <a class="nav-link text-dark" routerLink="users">Tutti gli utenti</a>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link text-dark" routerLink="auth" *ngIf="!logged">
+            Login
+          </button>
+        </li>
+        <li class="nav-item" *ngIf="logged">
+          <a class="nav-link" routerLink="profile">Profilo</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

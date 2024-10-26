@@ -1,0 +1,13 @@
+form {
+  width: 400px;
+}
+
+.register-button {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transizione per sollevamento e ombra */
+}
+
+/* Effetto di sollevamento al passaggio del mouse */
+.register-button:hover {
+  transform: translateY(-5px); /* Solleva il bottone di 5 pixel */
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.5); /* Aggiungi un'ombra per dare profondità */
+}

@@ -1,0 +1,52 @@
+<div class="container py-4">
+  <h2 class="text-center fw-bold fs-1">Il profilo di {{ user.name }}</h2>
+  <div class="row mb-4">
+    <div class="col-md-6 offset-md-3">
+      <div class="card text-center shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Nome</h5>
+          <p class="card-text fs-4 fw-bold">{{ user.name }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-4">
+    <div class="col-md-6 offset-md-3">
+      <div class="card text-center shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Email</h5>
+          <p class="card-text fs-4 fw-bold">{{ user.email }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <a (click)="logout()" class="btn btn-lg btn-danger btn-block">Logout</a>
+  </div>
+
+  <h3 class="mt-4 text-center fw-bold fs-1">Personaggi scelti:</h3>
+  <div class="row">
+    <div
+      class="col-md-4 mb-4"
+      *ngFor="let character of favoriteCharacters$ | async"
+    >
+      <div class="card shadow-sm">
+        <img
+          class="card-img-top"
+          [src]="character.image_link"
+          alt="{{ character.title }}"
+        />
+        <div class="card-body d-flex text-center flex-column">
+          <h5 class="card-title">{{ character.title }}</h5>
+          <p class="card-text">Data di Uscita: {{ character.release_date }}</p>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="!(favoriteCharacters$ | async)?.length">
+      <p class="text-danger fw-bold fs-1 text-center">
+        Non hai personaggi preferiti, oppure li sto caricando :P
+      </p>
+    </div>
+  </div>
+</div>

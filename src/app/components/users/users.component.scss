@@ -1,0 +1,28 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f3f0bf;
+  font-weight: bold;
+}
+
+.table td {
+  background-color: #defacb;
+  vertical-align: middle;
+}
+
+h2 {
+  font-family: "Arima", serif;
+}
